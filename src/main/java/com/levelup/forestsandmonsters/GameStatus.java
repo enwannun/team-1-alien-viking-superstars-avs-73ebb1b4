@@ -1,5 +1,5 @@
 package com.levelup.forestsandmonsters;
 
-public class gameMap {
+public class GameStatus {
     
 }
