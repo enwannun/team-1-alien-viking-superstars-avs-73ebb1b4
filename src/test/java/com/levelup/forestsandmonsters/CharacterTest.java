@@ -1,14 +1,14 @@
-package com.levelup.alienvikingsuperstarrs;
+package com.levelup.forestsandmonsters;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
-import com.levelup.alienvikingsuperstars.GameController.DIRECTION;
+import com.levelup.forestsandmonsters.GameController.DIRECTION;
 
 public class CharacterTest {
     @Test
     public void initializationSetsNameToDefaultWhenEmpty() {
-    Character testObj = new Character();
+        Character testObj = new Character();
         assertEquals(Character.DEFAULT_NAME, testObj.getName());
         testObj = new Character("");
         assertEquals(Character.DEFAULT_NAME, testObj.getName());

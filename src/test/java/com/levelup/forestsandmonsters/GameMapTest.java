@@ -1,4 +1,4 @@
-package com.levelup.alienvikingsuperstars;
+package com.levelup.forestsandmonsters;
 
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;

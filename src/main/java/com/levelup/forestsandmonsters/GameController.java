@@ -75,4 +75,11 @@ public class GameController {
         return this.map.getTotalPositions();
     }
 
+    public void setCurrentMoveCount(int currentMoveCount) {
+    }
+
+    public void setCharacterPosition(Point point) {
+    }
+
+
 }
