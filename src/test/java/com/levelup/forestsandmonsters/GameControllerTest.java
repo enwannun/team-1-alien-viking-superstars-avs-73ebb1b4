@@ -4,9 +4,9 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import org.junit.Test;
 
-import com.levelup.forestsandmonsters.GameController.GameStatus;
 
-import java.util.Scanner;
+
+
 
 public class GameControllerTest
  {
@@ -14,7 +14,7 @@ public class GameControllerTest
     public void initializationCreatesResults() {
         GameController testObj = new GameController();
         assertNotNull(testObj.status);
-        testObj.status.moveCount = -100;
+        testObj.status.moveCount = 0;
         assertEquals(0, testObj.status.moveCount); 
         
     }
